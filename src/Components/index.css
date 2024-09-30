@@ -1,0 +1,45 @@
+.navBar, .header{
+    display:flex;
+    flex-wrap: wrap;
+}
+.navItem{
+    list-style: none;
+    margin: 5px;
+}
+.appLogo{
+    width: 96px
+}
+.header{
+    background-color:darkgrey;
+}
+.appBody{
+    background-color: aqua;
+    height:100%;
+    width:100%;
+}
+.restroCard{
+    width:200px;
+    height:240px;
+    display: inline-block;
+    border: 1px solid gray;
+    background-color: white;
+    margin: 2px;
+    
+}
+.restroCard:hover{
+    border: 2px solid rgb(133, 135, 250);
+}
+.restImage{
+    position:relative;
+    width:100%;
+    height: 150px;
+}
+.restName{
+    font-size: 1.5em;
+    font-family: serif;
+}
+.restro-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
